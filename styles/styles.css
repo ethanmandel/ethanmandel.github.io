@@ -1,0 +1,55 @@
+@font-face 
+{
+    font-family: 'alte_haas_groteskregular';
+    src: url('altehaasgroteskregular-webfont.woff2') format('woff2'),
+         url('altehaasgroteskregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+    background-color: black;
+    color: black;
+    font-size: 12px;
+    font-family: "alte_haas_groteskregular", system-ui;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0 20px 20px 20px;
+    border: px solid black;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #fcbe11;
+    text-shadow: -1px 1px 0 black,
+                         1px 1px 0 black,
+                         1px -1px 0 black,
+                         -1px -1px 0 black;
+    font-size: 60px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 35px;
+    text-align:center;
+}
+
+p,
+ul,
+li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: #fcbe11;
+}
